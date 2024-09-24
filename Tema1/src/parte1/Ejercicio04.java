@@ -2,7 +2,7 @@ package parte1;
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio04 {
 
 	public static void main(String[] args) {
 		
@@ -10,10 +10,10 @@ public class Ejercicio4 {
 		Scanner lectura = new Scanner(System.in);
 		
 		// Creamos la variable de la primera nota
-		double nota1;
+		int nota1;
 		
 		// Creamos la variable de la segunda nota
-		double  nota2;
+		int  nota2;
 		
 		// Creamos la variable de la nota media
 		double notaMedia;
@@ -22,16 +22,16 @@ public class Ejercicio4 {
 		System.out.println("¿Cuál es la primera nota?");
 		
 		// Insertamos el valor introducido por el usuario en la variable
-		nota1 = lectura.nextDouble();
+		nota1 = lectura.nextInt();
 		
 		// Le pregutnamos al usuario cuál es la segunda nota
 		System.out.println("¿Y la segunda?");
 		
 		// Insertamos el valor introducido por el usuario en la variable
-		nota2 = lectura.nextDouble();
+		nota2 = lectura.nextInt();
 		
-		// Calculamos la nota media
-		notaMedia = (nota1 + nota2) / 2;
+		// Calculamos la nota media en valor de double, para permitir los decimales
+		notaMedia = (double) (nota1 + nota2) / 2;
 		
 		// Le mostramos al usuario su nota media
 		System.out.println("Tu nota media es " + notaMedia);

@@ -2,7 +2,7 @@ package parte1;
 
 import java.util.Scanner;
 
-public class Ejercicio2 {
+public class Ejercicio02 {
 
 	public static void main(String[] args) {
 		
@@ -15,11 +15,11 @@ public class Ejercicio2 {
 		// Indicamos al usuario que introduzca su edad
 		System.out.println("Introduzca su edad");
 		
-		// Introducimos el valor dado por el usuario a la variable anteriormente creada y le sumamos 1, que será su edad el próximo año
-		edad = lectura.nextInt() + 1;
+		// Introducimos el valor dado por el usuario a la variable anteriormente creada
+		edad = lectura.nextInt();
 		
 		// Le mostramos al usuario cuanta edad tendrá el próximo año
-		System.out.println("El próximo año tendrás " + edad + " años");
+		System.out.println("El próximo año tendrás " + ++edad + " años");
 		
 		// Cerramos el proceso de lectura
 		lectura.close();
