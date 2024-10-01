@@ -9,9 +9,13 @@ public class Ejercicio05 {
 		// Creamos el proceso de lectura
 		Scanner lectura = new Scanner(System.in);
 		
-		// Creamos las variables que necesitaremos
+		// Creamos la variable segundos
 		int segundos;
+		
+		// Creamos la variable minutos
 		int minutos;
+		
+		// Creamos la variable horas
 		int horas;
 		
 		// Le pedimos al usuario que introduzca la cantidad de segundos

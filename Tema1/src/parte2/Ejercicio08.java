@@ -9,8 +9,10 @@ public class Ejercicio08 {
 		// Creamos el proceso de lectura
 		Scanner lectura = new Scanner(System.in);
 		
-		// Creamos las variables
+		// Creamos la variable longitud
 		double longitud;
+		
+		// Creamos la variable longitudCm
 		double longitudCm;
 		
 		// Pedimos al usuario la longitud y la introducimos

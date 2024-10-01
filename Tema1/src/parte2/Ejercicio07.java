@@ -9,17 +9,26 @@ public class Ejercicio07 {
 		// Creamos el proceso de lectura
 		Scanner lectura = new Scanner(System.in);
 		
-		// Creamos las constantes y las variables necesarias
+		// Creamos la constante del precio de entradas infantiles
 		final double PRECIO_INFANTIL = 15.5;
+		
+		// Creamos la constante del precio de entradas adultas
 		final double PRECIO_ADULTO = 20;
+		
+		// Creamos la variable de cantidad de entradas infantiles
 		int cantidadInfantil;
+		
+		// Creamos la variable de cantidad de entradas adultas
 		int cantidadAdulto;
+		
+		// Creamos la variable del precio final
 		double precioFinal;
 		
-		// Pedimos la cantidad de entradas vendidas de cada tipo y lo asignamos a cada variable
+		// Pedimos la cantidad de entradas infantiles vendidas y las introducimos
 		System.out.println("Cuántas entradas infantiles ha vendido?");
 		cantidadInfantil = lectura.nextInt();
 		
+		// Pedimos la cantidad de entradas adultas vendidas y las introducimos
 		System.out.println("Cuántas entradas de adultos ha vendido?");
 		cantidadAdulto = lectura.nextInt();
 		
