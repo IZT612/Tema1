@@ -28,7 +28,6 @@ public class Ejercicio08 {
 		// Cerramos el proceso de lectura
 		lectura.close();
 	
-
 	}
 
 }
